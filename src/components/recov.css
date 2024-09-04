@@ -1,0 +1,50 @@
+.container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: var(--background-color);
+  border: 1px solid var(--input-border);
+  border-radius: 10px;
+}
+
+h2 {
+  color: var(--primary-color);
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid var(--input-border);
+  border-radius: 5px;
+}
+
+button[type="submit"],
+button[type="button"] {
+  background-color: var(--button-background);
+  color: var(--button-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+  background-color: var(--button-hover-background);
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+button[type="submit"],
+button[type="button"] {
+  margin-top: 20px;
+}
+
+/* Add some spacing between the form fields and the buttons */
+.field-group {
+  margin-bottom: 20px;
+}
